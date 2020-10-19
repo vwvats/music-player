@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming Music</title>
+  <!-- FAVICON -->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Music player container -->
+  <div class="player-container">
+    <!-- Image container -->
+    <div class="img-container">
+      <img src="" alt="music artwork">
+    </div>
+    <h3 id="title"></h3>
+    <h4 id="artist"></h4>
+    <audio src="" id="music"></audio>
+    <!-- Progress bar -->
+    <div class="duration-wrapper">
+      <span id="current-time"></span>
+      <span id="duration"></span>
+    </div>
+    <div class="progress-container" id="progress-container">
+      <div class="progress" id="progress"></div>
+    </div>
+    <!-- Player controls -->
+    <div class="player-controls">
+      <i class="fas fa-backward" id="prev" title="Previous"></i>
+      <i class="fas fa-play main-button" id="play" title="Play"></i>
+      <i class="fas fa-forward" id="next" title="Next"></i>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="index.js"></script>
+</body>
+</html>
