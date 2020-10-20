@@ -1,4 +1,5 @@
 // Grabbing elements
+const body = document.querySelector('body');
 const img = document.querySelector('img');
 const title = document.getElementById('title');
 const artist = document.getElementById('artist');
@@ -17,78 +18,91 @@ const songs = [
     name: 'ancient-stones',
     displayName: 'Ancient Stones',
     artist: 'Jeremy Soule',
+    theme: 'fantasy',
   },
 
   {
     name: 'around',
     displayName: 'Around',
     artist: 'Modulogeek',
+    theme: 'sorrow',
   },
 
   {
     name: 'departure',
     displayName: 'Departure',
     artist: 'Max Richter',
+    theme: 'sorrow',
   },
 
   {
     name: 'lord-of-cinder',
     displayName: 'Lord of Cinder',
     artist: 'Motoi Sakuraba',
+    theme: 'fantasy',
   },
 
   {
     name: 'minstrels-lament',
     displayName: "Minstrel's Lament",
     artist: 'Jeremy Soule',
+    theme: 'fantasy',
   },
 
   {
     name: 'nature-of-daylight',
     displayName: 'On the Nature of Daylight',
     artist: 'Max Richter',
+    theme: 'sorrow',
   },
 
   {
     name: 'never-goodbye',
     displayName: 'Never Goodbye',
     artist: 'Max Richter',
+    theme: 'sorrow',
   },
 
   {
     name: 'secunda',
     displayName: 'Secunda',
     artist: 'Jeremy Soule',
+    theme: 'fantasy',
   },
 
   {
     name: 'she-remembers',
     displayName: 'She Remembers',
     artist: 'Max Richter',
+    theme: 'sorrow',
   },
 
   {
     name: 'souls-of-fire',
     displayName: 'Souls of Fire',
     artist: 'Motoi Sakuraba',
+    theme: 'fantasy',
   },
 
   {
     name: 'time',
     displayName: 'Time',
     artist: 'Hans Zimmer',
+    theme: 'sorrow',
   },
 
   {
     name: 'way-of-life',
     displayName: 'A Way of Life',
     artist: 'Hans Zimmer',
+    theme: 'tranquil',
   },
 
   {
     name: 'wings-of-kynareth',
     displayName: 'Wings of Kynareth',
     artist: 'Jeremy Soule',
+    theme: 'fantasy',
   },
 ];
 
@@ -114,6 +128,7 @@ function loadSong(song) {
   artist.textContent = song.artist;
   music.src = `music/${song.name}.mp3`;
   img.src = `images/${song.name}.jpg`;
+  body.style.backgroundImage = `url(images/${song.theme}.jpg)`;
 }
 
 // Previous and next
