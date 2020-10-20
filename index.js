@@ -14,16 +14,82 @@ const nextBtn = document.getElementById('next');
 // Music
 const songs = [
   {
-    name: 'sleep-away',
-    displayName: 'Sleep Away',
-    artist: 'Bob Acri'
+    name: 'ancient-stones',
+    displayName: 'Ancient Stones',
+    artist: 'Jeremy Soule',
   },
 
   {
-    name: 'maid-flaxen-hair',
-    displayName: 'Maid with the Flaxen Hair',
-    artist: 'Richard Stoltzman'
-  }
+    name: 'around',
+    displayName: 'Around',
+    artist: 'Modulogeek',
+  },
+
+  {
+    name: 'departure',
+    displayName: 'Departure',
+    artist: 'Max Richter',
+  },
+
+  {
+    name: 'lord-of-cinder',
+    displayName: 'Lord of Cinder',
+    artist: 'Motoi Sakuraba',
+  },
+
+  {
+    name: 'minstrels-lament',
+    displayName: "Minstrel's Lament",
+    artist: 'Jeremy Soule',
+  },
+
+  {
+    name: 'nature-of-daylight',
+    displayName: 'On the Nature of Daylight',
+    artist: 'Max Richter',
+  },
+
+  {
+    name: 'never-goodbye',
+    displayName: 'Never Goodbye',
+    artist: 'Max Richter',
+  },
+
+  {
+    name: 'secunda',
+    displayName: 'Secunda',
+    artist: 'Jeremy Soule',
+  },
+
+  {
+    name: 'she-remembers',
+    displayName: 'She Remembers',
+    artist: 'Max Richter',
+  },
+
+  {
+    name: 'souls-of-fire',
+    displayName: 'Souls of Fire',
+    artist: 'Motoi Sakuraba',
+  },
+
+  {
+    name: 'time',
+    displayName: 'Time',
+    artist: 'Hans Zimmer',
+  },
+
+  {
+    name: 'way-of-life',
+    displayName: 'A Way of Life',
+    artist: 'Hans Zimmer',
+  },
+
+  {
+    name: 'wings-of-kynareth',
+    displayName: 'Wings of Kynareth',
+    artist: 'Jeremy Soule',
+  },
 ];
 
 let isPlaying = false;
