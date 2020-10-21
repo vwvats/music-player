@@ -53,7 +53,7 @@ const songs = [
     name: 'nature-of-daylight',
     displayName: 'On the Nature of Daylight',
     artist: 'Max Richter',
-    theme: 'sorrow',
+    theme: 'serene',
   },
 
   {
@@ -88,14 +88,14 @@ const songs = [
     name: 'time',
     displayName: 'Time',
     artist: 'Hans Zimmer',
-    theme: 'sorrow',
+    theme: 'serene',
   },
 
   {
     name: 'way-of-life',
     displayName: 'A Way of Life',
     artist: 'Hans Zimmer',
-    theme: 'tranquil',
+    theme: 'serene',
   },
 
   {
